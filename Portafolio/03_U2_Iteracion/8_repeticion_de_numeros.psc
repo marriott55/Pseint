@@ -5,14 +5,14 @@ Algoritmo repeticion_de_numeros
 	Escribir "Ingresa números  (Se contará la cantidad de repeticiones)"
 	Repetir
 		Leer n
-		Según n Hacer
+		Segun n Hacer
 			1:
 				n1 <- n1+1
 			2:
 				n2 <- n2 +1
 			3:
 				n3 <- n3 +1
-		FinSegún
+		FinSegun
 		Si n >0  Entonces
 			Si (n%2) = 0 Entonces
 				pares <- pares +1
